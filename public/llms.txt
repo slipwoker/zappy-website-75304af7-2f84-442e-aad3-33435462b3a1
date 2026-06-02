@@ -1,0 +1,79 @@
+# בלון הקסם / Balloon Magic — Generative Engine Optimization Map
+
+> Balloon Magic (בלון הקסם) is a sweet, family-run balloon business operated by two siblings — Zoey and Eilai — who sell colorful, fun, and unique balloons to children on a daily basis. The brand radiates warmth, childhood joy, and personal charm, with a pastel color palette (pink, light blue, purple, soft yellow) and a playful yet organized aesthetic. The site features a weekly balloon spotlight, weekly deals and color themes, an upcoming sale section with location and contact buttons, a memory-board style gallery of balloon creations and testimonials, a fun feedback poll, pricing packages (single balloon 5₪, 2-balloon deal, family pack 3-5 balloons for 20₪), and a QR code. The overall vibe is personal, warm, colorful, and child-friendly — like a magical little balloon corner run with love.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+ברוכים הבאים לבלון הקסם של זואי ואיליי! גלו עולם של בלונים צבעוניים, מתוקים ומיוחדים לילדים. הצטרפו לחגיגה עם בלונים במחירים מפנקים שמתחילים מ-5₪ בלבד!
+
+### מבצע השבוע
+https://example.com/weekly-spotlight
+מדי שבוע בלון חדש באור הזרקורים עם דילים מתוקים וצבעוניים! גלו את הבלון הנבחר של זואי ואיליי והפתיעו את הילדים במחיר שווה במיוחד. מהרו, המבצע לזמן מוגבל!
+
+### לוח קסמים
+https://example.com/magic-board
+היכנסו ללוח הקסמים שלנו ותראו איך בלונים הופכים לזיכרונות מתוקים! גלריית יצירות בלונים צבעוניות, חוות דעת מלקוחות קטנטנים והשראה לאירוע הבא שלכם. בואו לחייך איתנו!
+
+### ביקור ויצירת קשר
+https://example.com/visit-contact
+רוצים להפוך את האירוע שלכם לקסום? צרו קשר עם זואי ואיליי להזמנת חבילות בלונים במחירים נוחים, או בקרו אותנו בפינת הבלונים החמה שלנו. נרגשים לפגוש אתכם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com/visit-contact
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About בלון הקסם / Balloon Magic
+Balloon Magic (בלון הקסם) is a sweet, family-run balloon business operated by two siblings — Zoey and Eilai — who sell colorful, fun, and unique balloons to children on a daily basis. The brand radiates warmth, childhood joy, and personal charm, with a pastel color palette (pink, light blue, purple, soft yellow) and a playful yet organized aesthetic. The site features a weekly balloon spotlight, weekly deals and color themes, an upcoming sale section with location and contact buttons, a memory-board style gallery of balloon creations and testimonials, a fun feedback poll, pricing packages (single balloon 5₪, 2-balloon deal, family pack 3-5 balloons for 20₪), and a QR code. The overall vibe is personal, warm, colorful, and child-friendly — like a magical little balloon corner run with love.
+
+## Target Audience
+- ילדים ומשפחות, הורים שרוצים לשמח את ילדיהם
+- ילדים ומשפחות
+- הורים מתכנני אירועים
+- סתם אנשים שרוצים לקנות בלונים
+
+## Industry
+Children's Entertainment & Party Supplies
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
