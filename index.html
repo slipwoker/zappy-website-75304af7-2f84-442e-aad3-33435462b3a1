@@ -888,7 +888,7 @@
 
 </section>
 
-<section data-band-index="1" class="index-story-section" data-layout-spec="בית-story">
+<section data-band-index="1" class="index-story-section" data-layout-spec="בית-story" id="index-story-section">
     <div class="index-story-section__container">
         <!-- Content Column (Right in RTL) -->
         <div class="index-story-section__content">
@@ -921,7 +921,7 @@
         <div class="index-story-section__visual">
             <!-- Main Photo Tile -->
             <div class="index-story-section__main-photo">
-                <img loading="lazy" decoding="async" data-placeholder="index-story-image-1" data-context="A warm, candid portrait of two smiling siblings, a boy and a girl around 10-14 years old, holding colorful pastel balloons in a sunny outdoor setting, soft bokeh background, joyful and natural expression, Children's Entertainment &amp; Party Supplies business" width="600" height="400" src="/assets/site-index-story-image-1.webp" alt="זואי ועילאי מחזיקים בלונים צבעוניים">
+                
                 <!-- Tape accent top-left (RTL: top-right) -->
                 <div class="index-story-section__tape index-story-section__tape--tl" aria-hidden="true"></div>
             </div>
@@ -957,7 +957,7 @@
     </div>
 </section>
 
-<section data-band-index="2" class="index-spotlight-section" data-layout-spec="בית-spotlight" dir="rtl">
+<section data-band-index="2" class="index-spotlight-section" data-layout-spec="בית-spotlight" dir="rtl" id="index-spotlight-section">
   <div class="index-spotlight-section__bg-decor" aria-hidden="true"></div>
   <div class="index-spotlight-section__starbursts" aria-hidden="true">
     <svg viewBox="0 0 80 80" class="star star-1"><path d="M40 5 L44 30 L68 34 L44 38 L40 63 L36 38 L12 34 L36 30 Z" fill="var(--accent)" opacity="0.3"></path></svg>
@@ -969,14 +969,14 @@
     <div class="index-spotlight-section__grid">
       <div class="index-spotlight-section__image-col">
         <div class="index-spotlight-section__image-frame">
-          <img loading="lazy" decoding="async" data-placeholder="index-spotlight-image-1" data-context="A large, joyful pastel pink balloon shaped like a cute dog with floppy ears, tied with a shiny ribbon, floating against a soft gradient background with scattered confetti and sparkles" width="600" height="600" src="/assets/site-index-spotlight-image-1.webp" alt="בלון השבוע - כלב חמוד בצבע ורוד פסטל">
+          <img loading="lazy" decoding="async" data-placeholder="index-spotlight-image-1" data-context="A large, joyful pastel pink balloon shaped like a cute dog with floppy ears, tied with a shiny ribbon, floating against a soft gradient background with scattered confetti and sparkles" width="600" height="600" src="/assets/site-index-spotlight-image-1.webp" alt="בלון השבוע - כלב חמוד בצבע ורוד פסטל" data-element-type="image" data-element-id="img-1780419734214-r0yxs6rzd" >
           <div class="index-spotlight-section__image-badge">🎈 בלון השבוע</div>
         </div>
       </div>
       
       <div class="index-spotlight-section__content-col">
         <h2 class="index-spotlight-section__title">✨ בלון השבוע</h2>
-        <p class="index-spotlight-section__balloon-name">🐶 כלבלב מתוק</p>
+        <p class="index-spotlight-section__balloon-name" style="color: rgb(47, 40, 80) !important;">🐶 כלבלב מתוק</p>
         
         <div class="index-spotlight-section__badges">
           <div class="index-spotlight-section__badge index-spotlight-section__badge--deal">
@@ -989,37 +989,31 @@
           </div>
         </div>
         
-        <p class="index-spotlight-section__note">
+        <p class="index-spotlight-section__note" style="color: rgb(47, 40, 80) !important;">
           💡 <small>הפרטים כאן מתעדכנים מדי שבוע — קל להחליף את התמונה, השם, המבצע והצבע בכל פעם מחדש.</small>
         </p>
         
         <div class="index-spotlight-section__examples-card">
           <h3 class="index-spotlight-section__examples-title">🎈 דוגמאות לבלוני שבוע עתידיים</h3>
           <div class="index-spotlight-section__examples-grid">
-            <div class="index-spotlight-section__example-item">
+            <div class="index-spotlight-section__example-item" data-grid-item-index="0" >
               <span class="index-spotlight-section__example-emoji">🐶</span>
               <span>כלב</span>
             </div>
-            <div class="index-spotlight-section__example-item">
+            <div class="index-spotlight-section__example-item" data-grid-item-index="1" >
               <span class="index-spotlight-section__example-emoji">⭐</span>
               <span>כוכב</span>
             </div>
-            <div class="index-spotlight-section__example-item">
+            <div class="index-spotlight-section__example-item" data-grid-item-index="2">
               <span class="index-spotlight-section__example-emoji">🌸</span>
               <span>פרח</span>
             </div>
-            <div class="index-spotlight-section__example-item">
-              <span class="index-spotlight-section__example-emoji">🦄</span>
-              <span>חד-קרן</span>
-            </div>
-            <div class="index-spotlight-section__example-item">
+            
+            <div class="index-spotlight-section__example-item" data-grid-item-index="4">
               <span class="index-spotlight-section__example-emoji">🧸</span>
               <span>דובי</span>
             </div>
-            <div class="index-spotlight-section__example-item">
-              <span class="index-spotlight-section__example-emoji">🎀</span>
-              <span>קשת</span>
-            </div>
+            <div class="index-spotlight-section__example-item" data-grid-item-index="5" >💖 לב</div>
           </div>
         </div>
       </div>
@@ -1059,7 +1053,7 @@
             <span class="index-pricing-section__price-currency">₪</span>
             <span class="index-pricing-section__price-value">5</span>
           </div>
-          <a href="#contact" class="index-pricing-section__btn index-pricing-section__btn--primary">אני רוצה בלון!</a>
+          
         </div>
         <div class="index-pricing-section__confetti" aria-hidden="true">
           <span>✦</span><span>✦</span><span>✦</span><span>✦</span><span>✦</span>
@@ -1083,7 +1077,7 @@
             <span class="index-pricing-section__price-value">5</span>
             <span class="index-pricing-section__price-note">לשני בלונים</span>
           </div>
-          <a href="#contact" class="index-pricing-section__btn index-pricing-section__btn--secondary">אני רוצה את הדיל!</a>
+          
         </div>
         <div class="index-pricing-section__confetti" aria-hidden="true">
           <span>✦</span><span>✦</span><span>✦</span><span>✦</span><span>✦</span>
